@@ -1,0 +1,23 @@
+#grid
+{
+  display: grid;
+  grid-template-columns: 200px 1fr;
+}
+  a {
+    color:green;
+    text-decoration: none;
+  }
+  h1{
+    font-size: 60px;
+    text-align: center;
+    border-bottom: 1px solid gray;
+    margin:0;
+
+  }
+  .saw {
+   color:gray;
+  }
+  ol{
+    border-right: 1px solid gray;
+    width:150px;
+  }

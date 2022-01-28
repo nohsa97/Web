@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Main</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <style media="screen">
+      a{
+        color:blue;
+      }
+    </style>
+  </head>
+
+  <body style="background-color:powderblue;color:blue;">
+
+    <h1><a href="index.html">Main</h1></a>
+    <input type="button" name="blue" value="blue" onclick="
+    var list = document.querySelectorAll('a');
+    var i=0;
+    var target = document.querySelector('body');
+    if(this.value==='blue')
+    {
+      for(;i<list.length;i++)
+      {
+        list[i].style.color='red';
+        target.style.color='red';
+        this.value='red';
+      }
+    }
+    else
+    {
+      for(;i<list.length;i++)
+      {
+        list[i].style.color='blue';
+          target.style.color='blue';
+        this.value='blue';
+      }
+    }
+      ">
+
+
+
+    <ol>
+      <li><a href="1.html"> 상명여고</a></li>
+      <li><a href="2.html"> 상명여중</a></li>
+      <li><a href="3.html"> 상명유치원</a></li>
+      <li><a href="4.html"> <a href="https://dunfaoff.com/" target="_blank" title="dunfaoff">던파오프</a></li>
+      <li><a href="CSS.html">CSS</a></li>
+    </ol>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/5KLsjhz9jMI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<!--주석처리 -->
+  </body>
+</html>
